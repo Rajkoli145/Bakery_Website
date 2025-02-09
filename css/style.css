@@ -843,6 +843,127 @@ img {
     color: #666;
 }
 
+/* Search Styles */
+.search-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.search-form {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.search-input-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.search-input-group input {
+    flex: 1;
+    padding: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-input-group .btn {
+    padding: 1rem 2rem;
+}
+
+.search-results {
+    margin-top: 3rem;
+}
+
+.search-results h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Authentication Styles */
+.auth-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.auth-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.auth-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.auth-box h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.auth-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.auth-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="email"],
+.auth-form input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #666;
+}
+
+.forgot-password {
+    color: #e91e63;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.auth-form .btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.auth-switch {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #666;
+}
+
+.auth-switch a {
+    color: #e91e63;
+    text-decoration: none;
+}
+
+.auth-switch a:hover {
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
