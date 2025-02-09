@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sweet Delights - Artisan Bakery</title>
-    <meta name="description" content="Discover our handcrafted cakes and pastries, made fresh daily with the finest ingredients.">
+    <title>Products - Sweet Delights</title>
+    <meta name="description" content="Browse our delicious selection of freshly baked cakes, pastries, and breads.">
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,15 +12,6 @@
     
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Sweet Delights - Artisan Bakery">
-    <meta property="og:description" content="Discover our handcrafted cakes and pastries, made fresh daily with the finest ingredients.">
-    <meta property="og:image" content="images/og-image.jpg">
 </head>
 <body>
     <header class="header">
@@ -28,8 +19,8 @@
             <div class="container">
                 <a href="index.html" class="logo">Sweet Delights</a>
                 <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -47,23 +38,18 @@
         </nav>
     </header>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
+    <main class="products-page">
+        <section class="page-header">
             <div class="container">
-                <div class="hero-content">
-                    <h1>Welcome to Sweet Delights</h1>
-                    <p>Discover our delicious selection of freshly baked goods</p>
-                    <a href="products.html" class="btn-primary">Shop Now</a>
-                </div>
+                <h1>Our Products</h1>
+                <p>Discover our handcrafted selection of baked goods</p>
             </div>
         </section>
 
-        <!-- Featured Products -->
-        <section class="featured-products">
+        <section class="products-section">
             <div class="container">
-                <h2>Featured Products</h2>
-                <div class="product-grid">
+                <div class="products-grid">
+                    <!-- Product Card 1 -->
                     <div class="product-card">
                         <div class="product-image">
                             <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Chocolate Heaven Cake">
@@ -78,53 +64,54 @@
                             <p class="price">$49.99</p>
                         </div>
                     </div>
-                    <!-- More product cards -->
-                </div>
-            </div>
-        </section>
 
-        <!-- Categories -->
-        <section class="categories">
-            <div class="container">
-                <h2>Our Categories</h2>
-                <div class="category-grid">
-                    <a href="#" class="category-card">
-                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Cakes">
-                        <h3>Cakes</h3>
-                    </a>
-                    <a href="#" class="category-card">
-                        <img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7" alt="Cupcakes">
-                        <h3>Cupcakes</h3>
-                    </a>
-                    <a href="#" class="category-card">
-                        <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e" alt="Cookies">
-                        <h3>Cookies</h3>
-                    </a>
-                    <a href="#" class="category-card">
-                        <img src="https://images.unsplash.com/photo-1589367920969-ab8e050bbb04" alt="Breads">
-                        <h3>Breads</h3>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials -->
-        <section class="testimonials">
-            <div class="container">
-                <h2>What Our Customers Say</h2>
-                <div class="testimonial-grid">
-                    <div class="testimonial-card">
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                    <!-- Product Card 2 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1614707267537-b85aaf00c4b7" alt="Vanilla Cupcakes">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
                         </div>
-                        <p class="quote">"The best bakery in town! Their cakes are absolutely delicious."</p>
-                        <p class="author">- Sarah Johnson</p>
+                        <div class="product-info">
+                            <h3>Vanilla Cupcakes</h3>
+                            <p class="category">Cupcakes</p>
+                            <p class="price">$24.99</p>
+                        </div>
                     </div>
-                    <!-- More testimonial cards -->
+
+                    <!-- Product Card 3 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e" alt="Chocolate Chip Cookies">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Chocolate Chip Cookies</h3>
+                            <p class="category">Cookies</p>
+                            <p class="price">$12.99</p>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1589367920969-ab8e050bbb04" alt="Sourdough Bread">
+                            <div class="product-actions">
+                                <button class="action-btn"><i class="fas fa-heart"></i></button>
+                                <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Sourdough Bread</h3>
+                            <p class="category">Breads</p>
+                            <p class="price">$8.99</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
